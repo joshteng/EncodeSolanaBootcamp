@@ -392,7 +392,7 @@ name = "modules2"
 path = "homeworks/homework6/modules/modules2.rs"
 mode = "compile"
 hint = """
-The delicious_snacks module is trying to present an external interface that is 
+The delicious_snacks module is trying to present an external interface that is
 different than its internal structure (the `fruits` and `veggies` modules and
 associated constants). Complete the `use` statements to fit the uses in main and
 find the one keyword missing for both constants."""
@@ -432,25 +432,25 @@ Hint 1: `i` is each element from the Vec as they are being iterated.
 Hint 2: Check the suggestion from the compiler error ;)
 """
 
-[[exercises]]
-name = "hashmap1"
-path = "homeworks/homework6/collections/hashmap1.rs"
-mode = "test"
-hint = """
-Hint 1: Take a look at the return type of the function to figure out
-  the type for the `basket`.
-Hint 2: Number of fruits should be at least 5. And you have to put
-  at least three different types of fruits.
-"""
+# [[exercises]]
+# name = "hashmap1"
+# path = "homeworks/homework6/collections/hashmap1.rs"
+# mode = "test"
+# hint = """
+# Hint 1: Take a look at the return type of the function to figure out
+#   the type for the `basket`.
+# Hint 2: Number of fruits should be at least 5. And you have to put
+#   at least three different types of fruits.
+# """
 
-[[exercises]]
-name = "hashmap2"
-path = "homeworks/homework6/collections/hashmap2.rs"
-mode = "test"
-hint = """
-Use the `entry()` and `or_insert()` methods of `HashMap` to achieve this.
-Learn more at https://doc.rust-lang.org/stable/book/ch08-03-hash-maps.html#only-inserting-a-value-if-the-key-has-no-value
-"""
+# [[exercises]]
+# name = "hashmap2"
+# path = "homeworks/homework6/collections/hashmap2.rs"
+# mode = "test"
+# hint = """
+# Use the `entry()` and `or_insert()` methods of `HashMap` to achieve this.
+# Learn more at https://doc.rust-lang.org/stable/book/ch08-03-hash-maps.html#only-inserting-a-value-if-the-key-has-no-value
+# """
 
 # STRINGS
 
